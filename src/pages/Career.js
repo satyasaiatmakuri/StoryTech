@@ -3,6 +3,7 @@ import '../styles/Careers.css'
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
 import {Link } from 'react-router-dom'
+import WorkruitRed from '../assets/WorkruitRed.png'
 
 function Career() {
   const [content1, setContent1]=useState(false);
@@ -19,7 +20,7 @@ function Career() {
       <div className='container my-5'>
           <div className='head'>
               <div className='col-4'>
-                <Link to='/'><img src='http://www.storytech.in/images/Red-Logo.svg' alt='StoryTech'/></Link>
+                <Link to='/'><img src={WorkruitRed} alt='StoryTech'/></Link>
               </div>
           </div>
           <div className='row py-5'>

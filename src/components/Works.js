@@ -1,6 +1,11 @@
 import React, {useState} from 'react'
 import '../styles/Works.css'
 import Carousel from 'react-bootstrap/Carousel';
+import Workruit1 from '../assets/Workruit1.png'
+import Workruitap from '../assets/Workruitap.png'
+import DEET from '../assets/DEET.png'
+import Client1 from '../assets/Client1.jpg'
+import Client2 from '../assets/Client2.jpg'
 
 function Works() {
     const [index, setIndex] = useState(0);
@@ -21,13 +26,13 @@ function Works() {
         <div className='px-4'>
             <div className=' posters row gx-0'>
                 <div className='col-xl-4 col-md-6 col-12 py-4'>
-                    <img src='http://www.storytech.in/images/Workruit.png' alt='storytech'/>
+                    <img src={Workruit1} alt='storytech'/>
                 </div>
                 <div className='col-xl-4 col-md-6 col-12 py-4'>
-                    <img src='http://www.storytech.in/images/Workruit%20AP.png' alt='storytech'/>
+                    <img src={Workruitap} alt='storytech'/>
                 </div>
                 <div className='col-xl-4 col-md-6 col-12 py-4'>
-                    <img src='http://www.storytech.in/images/DEET.png' alt='storytech'/>
+                    <img src={DEET} alt='storytech'/>
                 </div>
             </div>
         </div>
@@ -40,7 +45,7 @@ function Works() {
                             <div className='feedback-ver-line'>
                             </div>
                             <div className='feedback-details py-2'>
-                                <div className='feedback-image'><img src='http://www.storytech.in/images/avatars/user-01.jpg' alt='feedback'></img></div>
+                                <div className='feedback-image'><img src={Client1} alt='feedback'></img></div>
                                 <div className='feedback-content px-4'><p>
                                 Design is very critical and important in solving problems in every field. Going through various different agencies, 
                                 we’ve learnt that StoryTech provides a clean and minimal approach in providing solutions.    
@@ -59,7 +64,7 @@ function Works() {
                             <div className='feedback-ver-line'>
                             </div>
                             <div className='feedback-details py-2'>
-                                <div className='feedback-image'><img src='http://www.storytech.in/images/avatars/user-05.jpg' alt='feedback'></img></div>
+                                <div className='feedback-image'><img src={Client2} alt='feedback'></img></div>
                                 <div className='feedback-content px-4'><p>
                                     Very happy with the design and development work, their attention to detail is something to look out for. 
                                     They do everything well.    
@@ -82,7 +87,7 @@ function Works() {
                             <div className='feedback-ver-line'>
                             </div>
                             <div className='feedback-details py-2'>
-                                <div className='feedback-image'><img src='http://www.storytech.in/images/avatars/user-01.jpg' alt='feedback'></img>
+                                <div className='feedback-image'><img src={Client1} alt='feedback'></img>
                                 </div>
                                 <div className='feedback-content px-4'><p>
                                         Very happy with the design and development work, their attention to detail is something to look out for. 
@@ -104,7 +109,7 @@ function Works() {
                             <div className='feedback-ver-line'>
                             </div>
                             <div className='feedback-details py-2'>
-                                <div className='feedback-image'><img src='http://www.storytech.in/images/avatars/user-01.jpg' alt='feedback'></img></div>
+                                <div className='feedback-image'><img src={Client2} alt='feedback'></img></div>
                                 <div className='feedback-content px-4'><p>
                                 Design is very critical and important in solving problems in every field. Going through various different agencies, 
                                 we’ve learnt that StoryTech provides a clean and minimal approach in providing solutions.    

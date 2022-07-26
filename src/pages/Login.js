@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 import EmailIcon from '@mui/icons-material/Email';
 import WorkIcon from '@mui/icons-material/Work';
 import '../styles/Login-Signup.css'
-import workruit from '../assets/workruit.jpg'
+import workruit from '../assets/Workruit.jpg'
 import Resume from '../assets/Resume.jpg'
 
 

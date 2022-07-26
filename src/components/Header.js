@@ -8,10 +8,9 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
-// import Logo from '../assets/Logo.png'
+import StoryTech from '../assets/StoryTech.png'
 
 function Header() {
-    // const ScrollLink = Scroll.ScrollLink
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
@@ -22,7 +21,7 @@ function Header() {
             <div className='row'>
                 <div className='header-contents row py-3'>
                     <div className='logo col-sm-8 col-6'>
-                        <img  className='logo-img' src='http://www.storytech.in/images/White-Logo.svg' alt='storyTech'/>
+                        <img  className='logo-img' src={StoryTech} alt='storyTech'/>
                     </div>
                     <div className='position-relative'>
                         <div className='menu-bar'>

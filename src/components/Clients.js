@@ -1,5 +1,9 @@
 import React from 'react'
 import '../styles/Clients.css'
+import Cust1 from '../assets/Cust1.png'
+import Cust2 from '../assets/Cust2.png'
+import Cust3 from '../assets/Cust3.png'
+import Cust4 from '../assets/Cust4.png'
 
 function Clients() {
   return (
@@ -13,16 +17,16 @@ function Clients() {
             </div>
             <div className='row clients-img py-5'>
                 <div className='client-img-inner col-md-3 col-sm-6 col-12 py-5'>
-                    <a href='https://www.workruit.com/' target="blank"><img src='http://www.storytech.in/Clients%202/Clients%202/Images/1.png' alt='workruit' /></a>
+                    <a href='https://www.workruit.com/' target="blank"><img src={Cust1} alt='workruit' /></a>
                 </div>
                 <div className='client-img-inner col-md-3 col-sm-6 col-12 py-5'>
-                    <a href='https://www.workruit.com/' target="blank"><img src='http://www.storytech.in/Clients%202/Clients%202/Images/5.png' alt='Govt of AP'/></a>
+                    <a href='https://www.workruit.com/' target="blank"><img src={Cust2} alt='Govt of AP'/></a>
                 </div>
                 <div className='client-img-inner col-md-3 col-sm-6 col-12 py-5'>
-                    <a href='http://tsdeet.com/' target="blank"><img src='http://www.storytech.in/Clients%202/Clients%202/Images/3.png' alt='Govt of TS' /></a>
+                    <a href='http://tsdeet.com/' target="blank"><img src={Cust3} alt='Govt of TS' /></a>
                 </div>
                 <div className='client-img-inner col-md-3 col-sm-6 col-12 py-5'>
-                    <a href='https://www.workruit.com/' target="blank"><img src='http://www.storytech.in/Clients%202/Clients%202/Images/4.png' alt='rely' /></a>
+                    <a href='https://www.workruit.com/' target="blank"><img src={Cust4} alt='rely' /></a>
                 </div>
             </div>
         </div>
