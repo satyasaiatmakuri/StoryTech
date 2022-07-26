@@ -1,0 +1,63 @@
+.contact{
+    background-color: #111111;
+    color:rgba(255, 255, 255, 0.3) ;
+}
+
+.contact .title, .contact h1 {
+    color: white;
+}
+
+.contact .hor-line{
+    width: 100px;
+    border-top: 2px solid #e94e3b;
+}
+
+.social-media-link-footer .social-media-icon{
+    margin-right: 20px;
+}
+
+.others{
+    display: flex;
+}
+
+.others .item{
+    margin-right: 20px;
+    padding-bottom: 5px;
+}
+
+.others .item:hover{
+    border-bottom: 1px solid rgb(48, 48, 48);
+}
+
+.ver-line{
+    position: relative;
+    height: 100px;
+    left: 100%;
+    width: 0%;
+    bottom: 190px;
+    border-left: 2px solid rgb(55, 54, 54);
+}
+
+.uparrow{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 110px;
+    right: 25px;
+    cursor: pointer;
+}
+
+.uparrow-text{
+    position: relative;
+    writing-mode:vertical-rl;
+    height: 120px;
+    bottom: 170px;
+    right: 15px;
+}
+

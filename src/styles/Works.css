@@ -1,0 +1,39 @@
+.col-12 img{
+    width: 100%;
+    height: 500px;
+}
+
+
+.feedback-outer{
+    border-top: 2px solid gray;
+}
+
+.feedback-ver-line{
+    margin-left: 100px;
+    height: 60px;
+    background-color: transparent;
+    border-left: 2px solid gray;
+}
+
+.feedback-details{
+    display: flex;
+}
+
+
+
+.feedback-image{
+    margin-left: 75px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+.feedback-image img{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+.carousel-item{
+    height: 350px;
+    background-color: transparent;
+}

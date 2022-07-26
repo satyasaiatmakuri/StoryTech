@@ -1,0 +1,47 @@
+.description {
+    line-height: 1.75;
+    margin-bottom: 3.6rem;
+    color: rgba(85, 85, 85, 0.95);
+}
+
+.path{
+    font-size: 1.6rem;
+    line-height: 1.3125;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    color: #e94e3b;
+    font-family: "metropolis-semibold", sans-serif !important;
+}
+
+.title{
+    line-height: 1.3;
+    color: #000000;
+    margin-top: 0;
+    font-style: bold;
+    font-family: "domine-bold", sans-serif !important;
+}
+
+.story-title{
+    display: flex;
+    align-items: stretch;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.story-title .story-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: #26bfb5;
+    margin-right: 20px;
+}
+
+.story-description{
+    margin-left: 25px;
+    border-left: 2px solid #26bfb5;
+    padding-left: 40px;
+    padding-bottom: 35px;
+}
