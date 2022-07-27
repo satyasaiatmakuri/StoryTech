@@ -5,8 +5,8 @@ import {Link} from 'react-router-dom'
 import EmailIcon from '@mui/icons-material/Email';
 import WorkIcon from '@mui/icons-material/Work';
 import '../styles/Login-Signup.css'
-import Workruit from '../assets/Workruit.jpg'
 import Resume from '../assets/Resume.jpg'
+import WorkruitRes from '../assets/WorkruitRes.jpg'
 
 
 function Signup() {
@@ -56,7 +56,7 @@ function Signup() {
         <div className='col-lg-4  col-md-5 col-12 p-5'>
         <div className='text-center'>
         <div className='Logo my-4 col-6 mx-auto'>
-              <img src={Workruit} alt='workruit'/>
+              <img src={WorkruitRes} alt='workruit'/>
         </div>
         <div>
             <h2>New Resume. New Job</h2>

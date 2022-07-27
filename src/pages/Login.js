@@ -6,7 +6,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import WorkIcon from '@mui/icons-material/Work';
 import '../styles/Login-Signup.css'
 import Resume from '../assets/Resume.jpg'
-import Workruit from '../assets/Workruit.jpg'
+import WorkruitRes from '../assets/WorkruitRes.jpg'
 
 function Login() {
 
@@ -33,7 +33,7 @@ function Login() {
         <div className='text-center'>
           <div className='row'>
             <div className='Logo my-4 col-6 mx-auto'>
-              <img src={Workruit} alt='workruit'/>
+              <img src={WorkruitRes} alt='Workruit'/>
             </div>
           </div>
           <div>
