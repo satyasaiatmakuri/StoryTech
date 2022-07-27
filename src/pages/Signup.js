@@ -56,7 +56,7 @@ function Signup() {
         <div className='col-lg-4  col-md-5 col-12 p-5'>
         <div className='text-center'>
         <div className='Logo my-4 col-6 mx-auto'>
-              <img src={Workruit} alt='workruit'></img>
+              <img src={Workruit} alt='workruit'/>
         </div>
         <div>
             <h2>New Resume. New Job</h2>
@@ -154,7 +154,7 @@ function Signup() {
             </button>
             </div>
             <div className='singup-nav text-center mt-5'>
-               Already have an account? <Link to='/'>Login</Link>
+               Already have an account? <Link to='/login'>Login</Link>
             </div>
          </Form>
        )}
