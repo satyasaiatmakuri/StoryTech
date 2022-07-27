@@ -51,7 +51,7 @@ function Header() {
                     <Scrollto to='clients' smooth={true} duration={400}><li onClick={handleClose}><span>05.</span><b>Clients</b></li></Scrollto>
                     <Scrollto to='contact' smooth={true} duration={450}><li onClick={handleClose}><span>06.</span><b>Contact</b></li></Scrollto>
                     <Navlink to='/careers'><li><span>07.</span><b>Career</b></li></Navlink>
-                    <Navlink to='/login'><li className='last-li'><span>08.</span><b>Login</b></li></Navlink>
+                    <Navlink to='/login'><li className='last-li'><span>08.</span><b>Login/SignUp</b></li></Navlink>
                 </ul>
 
                 <div className='social-media-link'>

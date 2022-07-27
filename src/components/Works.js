@@ -81,7 +81,7 @@ function Works() {
                     </div>
                 </div>
                 <div className='d-block d-lg-none pt-5'>
-                <Carousel activeIndex={index} onSelect={handleSelect}>
+                <Carousel className='carousel' activeIndex={index} onSelect={handleSelect}>
                     <Carousel.Item className='carousel-item'>
                         <div className='feedback-outer'>
                             <div className='feedback-ver-line'>
