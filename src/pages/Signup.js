@@ -7,6 +7,8 @@ import WorkIcon from '@mui/icons-material/Work';
 import '../styles/Login-Signup.css'
 import Resume from '../assets/Resume.jpg'
 import WorkruitRes from '../assets/WorkruitRes.jpg'
+import PersonIcon from '@mui/icons-material/Person';
+import PhoneIcon from '@mui/icons-material/Phone';
 
 
 function Signup() {
@@ -85,7 +87,7 @@ function Signup() {
          <Form>
             <div className='my-2'  id={colorstate1?'change':'nochange'}>
                 <div className='username-part p-2'>
-                    <EmailIcon className='icon'/>
+                    <PersonIcon className='icon'/>
                     <Field 
                         type="text" 
                         name="firstname" 
@@ -98,7 +100,7 @@ function Signup() {
             </div>
             <div className='my-4'   id={colorstate2?'change':'nochange'}>
                 <div className='username-part p-2'>
-                <WorkIcon className='icon'/>
+                <PersonIcon className='icon'/>
                 <Field 
                     type="text" 
                     name="lastname"  
@@ -111,7 +113,7 @@ function Signup() {
             </div>
             <div className='my-4'   id={colorstate3?'change':'nochange'}>
                 <div className='username-part p-2'>
-                <WorkIcon className='icon'/>
+                <EmailIcon className='icon'/>
                 <Field 
                     type="email" 
                     name="email"  
@@ -124,7 +126,7 @@ function Signup() {
             </div>
             <div className='my-4'   id={colorstate4?'change':'nochange'}>
                 <div className='username-part p-2'>
-                <WorkIcon className='icon'/>
+                <PhoneIcon className='icon'/>
                 <Field 
                     type="text" 
                     name="phone"  
